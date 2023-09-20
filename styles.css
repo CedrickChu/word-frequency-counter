@@ -1,10 +1,11 @@
 /* Style the body and center the form */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px;
 }
+
 
 /* Style the form container */
 form {
@@ -33,10 +34,12 @@ input[type="number"] {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-
+a:hover{
+    font-size: large;
+}
 /* Style the submit button */
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #fd3a74;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -46,5 +49,25 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #8d002a;
 }
+
+
+    table {
+        width: 50% !important;
+        border-collapse: collapse;
+        margin: auto
+        }
+        th{
+        
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        th, td {
+        text-align: center;
+        font-size: 20px;
+        }
+        td{
+            width: 50%;
+        }
+        
